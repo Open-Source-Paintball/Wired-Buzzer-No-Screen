@@ -1,0 +1,60 @@
+Requirements For Buzzer System
+Buzzer System - Wired - No Screen
+
+
+Overall System Hardware
+	Main Controller
+	Start Box Buzzer
+	Wired Connection
+
+Main Controller Hardware Overview
+	Start Button
+	Stop Button
+	Left Win Light
+	Right Win Light
+	USB Power Port
+	Headphone Output Jack
+	2x Ethernet Ports 
+	Plastic Enclosure
+
+Start Box Buzzer
+	Ethernet Port
+	Large Button
+	Plastic Enclosure
+
+User Interface
+	Wait Mode
+	System Waits for Input
+	Start Game
+	Initiated On Start Button Press
+	Initiated On Simultaneous Start Box Button Press
+	“Game Starts In 10 Seconds” Announcement
+	10 Second Countdown Begins, Audio Indicator At Each Second
+	Game Start Tone (Different Tone Than 10 Second Indicator)
+	Goes Into Game Running Mode
+	Game Running Mode
+	Game Waits for Start Box Button Press or Stop Button
+	On Start Box Button Press Game End Audio Tone Initiated
+	“Game Over” Announcement and Mode Goes to Wait
+	On Stop Button Press Game End Audio Tone Initiated
+	“Game Over” Announcement and Mode Goes to Wait
+
+Training Mode
+	Initiated When Start And Stop Button Pressed At Same Time
+	“Game Starts In 10 Seconds” Announcement
+	10 Second Countdown Begins, Audio Indicator At Each Second
+	Game Start Tone (Different Tone Than 10 Second Indicator)
+	Game Runs For 15 Seconds
+	“Game Over” Announcement and Mode Goes to Wait
+
+USB Interface
+	System Will Accept The Following Commands Over USB
+		System Start
+		System Stop
+		Training Mode Start
+	System Will Report The Following Data
+		System Start Request Received
+		System Stop Request 
+		Training Mode Start
+		Game Start
+		
